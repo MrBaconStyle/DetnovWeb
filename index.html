@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="1">
+                    <div id="screen0"></div>
+                    <div id="screen1"></div>
+                    <div id="screen2"></div>
+                    <div id="screen3"></div>
+                </th>
+                <th colspan="5">
+                    <div id="screen01"></div>
+                    <div id="screen11"></div>
+                    <div id="screen21"></div>
+                    <div id="screen31"></div>
+                </th>
+            </tr>
+        </thead>
+        <!-- PRVI RED JOOOOOOOOOOOOOOOOOOOOOOOOOOOOJ-->
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <div id="panel-label">System Fault</div>
+            </td>
+            <td>
+                <div id="system-fault-circle"></div>
+            </td>
+            <td>
+                <div id="panel-label">Power</div>
+            </td>
+            <td>
+                <div id="power-circle"></div>
+            </td>
+        </tr>
+        <!-- DRUGI RED -->
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <div id="panel-label">Supply Fault</div>
+            </td>
+            <td>
+                <div id="supply-fault-circle"></div>
+            </td>
+            <td>
+                <div id="panel-label">Fire</div>
+            </td>
+            <td>
+                <div id="fire-alarm-circle"></div>
+                <div id="fire-alarm-circle2"></div>
+            </td>
+        </tr>
+        <!-- TRECI RED -->
+        <tr>
+            <td>
+                <button id="sounder-on-button">Sounder On</button>
+            </td>
+            <td>
+                <div id="sounder-on-circle"></div>
+            </td>
+            <td>
+                <div id="panel-label">Earth Fault</div>
+            </td>
+            <td>
+                <div id="earth-fault-circle"></div>
+            </td>
+            <td>
+                <div id="panel-label">Disabled</div>
+            </td>
+            <td>
+                <div id="disabled-circle"></div>
+            </td>
+        </tr>
+        <!-- CETVRTI RED -->
+        <tr>
+            <td>
+                <button id="sounder-off-button">Sounder Off</button>
+            </td>
+            <td>
+                <div id="sounders-off-circle"></div>
+            </td>
+            <td>
+                <div id="panel-label">Sounder Delay</div>
+            </td>
+            <td>
+                <div id="sounder-delay-circle"></div>
+            </td>
+            <td>
+                <div id="panel-label">FAULt</div>
+            </td>
+            <td>
+                <div id="fault-circle"></div>
+            </td>
+        </tr>
+        <!-- PETI RED -->
+        <tr>
+            <td>
+                <button id="buzzer-off-button">Buzzer Off</button>
+            </td>
+            <td>
+                <div id="buzzer-off-circle"></div>
+            </td>
+            <td>
+                <div id="panel-label">Sounder Fault/Disabled</div>
+            </td>
+            <td>
+                <div id="sounder-fault-circle"></div>
+            </td>
+            <td>
+                <div id="panel-label">Test</div>
+            </td>
+            <td>
+                <div id="test-circle"></div>
+            </td>
+        </tr>
+        <!-- SESTI RED -->
+        <tr>
+            <td>
+                <button id="reset-button">Reset</button>
+            </td>
+            <td></td>
+            <td>
+                <div id="panel-label">Relay Disabled</div>
+            </td>
+            <td>
+                <div id="relay-disabled-circle"></div>
+            </td>
+            <td>
+                <div id="panel-label">Out of Service</div>
+            </td>
+            <td>
+                <div id="out-of-service-circle"></div>
+            </td>
+        </tr>
+    </table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
